@@ -1,0 +1,167 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 3.0 (December 17, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	a4paper, % Uncomment for A4 paper size (default is US letter)
+	11pt, % Default font size, can use 10pt, 11pt or 12pt
+]{resume} % Use the resume class
+
+\usepackage{ebgaramond} % Use the EB Garamond font
+\usepackage{hyperref} % Required for hyperlinks
+
+%------------------------------------------------
+
+\name{Josef Gstoettner} % Your name to appear at the top
+
+% You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
+% Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
+
+% \address{123 Broadway \\ City, State 12345} % Main address
+
+% \address{123 Pleasant Lane \\ City, State 12345} % A secondary address (optional)
+
+\address{(852)~$\cdot$~9322~$\cdot$~5289 \\ jgstoettner@connect.ust.hk} % Contact information
+
+\address{ \url{https://github.com/JosefGst} } % GitHub profile (optional)
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+Robotic engineer who is passionate about leveraging technology to solve problems and make robots come to life.
+% Adept at collaborating with cross-functional teams to bring projects from concept to completion. 
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+
+	\item ROS, C++, Python, Docker, Matlab
+	\item Embedded software development on ESP32, Arduino, STM32, NRF52
+	\item CAD design for 3D printing, laser cut and tool path generation for CNC machining in Fusion 360
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Laguanges}
+	\item German (native), English (fluent), Chinese Mandarin (intermediate)
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+	
+	\textbf{The Hong Kong University of Science and Technology,} \ Master in Mechanical Engineering \hfill \textit{May 2019}
+
+	
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+	\begin{rSubsection}{Full time Parent}{September 2024 - Present}{}{}
+		\item Perhaps the hardest job in the world.
+	\end{rSubsection}
+
+%------------------------------------------------
+
+	\begin{rSubsection}{Logistics and Supply Chain MultiTech R\&D Centre --- Robotic Engineer}{April 2022 - August 2024}{}{}
+		\item Developed motor drivers and for ROS robots in C++ and Python.
+		\item Integrated sensors like, Lidar, IMU, depth Cam and RGB cameras for navigation and mapping.
+		\item Created simple GUI's for delivery robots.
+	\end{rSubsection}
+
+%------------------------------------------------
+
+	\begin{rSubsection}{HKUST --- Research Assistant, Embedded Software}{July 2020 - March 2022}{}{}
+		\item Developed a weight scale with RFID scanner for automated storage records in chemical Labs on Arduino MCU.
+		\item CAD design for 3D print and laser cut of the prototypes.
+		\item Worked on a low power IoT accelerometer with BLE Mesh for predictive maintenance.
+	\end{rSubsection}
+
+%------------------------------------------------
+
+	\begin{rSubsection}{KALBAS --- CAD Designer, Product development}{August 2019 - May 2020}{}{}
+		\item Designed, 3D-printed and created tool-paths for CNC machining of fish lure prototypes.
+	\end{rSubsection}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects}
+
+	\begin{rSubsection}{\href{https://github.com/JosefGst/lingao_ros2}{Lingao ROS 2}; Private}{August 2023 - need to be continued}{}{}
+		\item Convert the existing ROS 1 codebase to ROS 2 of the Lingao robot.
+		\item Add outdoor navigation with GPS.
+	\end{rSubsection}
+
+%------------------------------------------------
+
+	\begin{rSubsection}{Red Bird Racing; Autonomous Racing Team; HKUST}{November 2021 - April 2022}{}{}
+		\item Cone detection with OpenCV and autonomous race car control-algorithm in ROS.
+	\end{rSubsection}
+
+%------------------------------------------------
+
+	\begin{rSubsection}{Robomaster; Software team; HKUST}{October 2021 - April 2022}{}{}
+		\item SLAM for autonomous Robot in ROS and embedded software development on STM32.
+	\end{rSubsection}
+
+%------------------------------------------------
+
+	\begin{rSubsection}{Autonomous RC-car challenge (first place); HKUST}{December 2020 - March 2021}{}{}
+		\item Trained Pytorch model on the Jetson Nano for autonomous-driving, obstacle avoidance and overtaking other cars.
+	\end{rSubsection}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Section Name}
+
+% 	Section content\ldots
+
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
