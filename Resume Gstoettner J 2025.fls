@@ -1,9 +1,9 @@
-PWD /home/u/Documents/LaTeXTemplates_medium-length-professional-cv_v3.0
+PWD /home/u/Documents/resume
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/u/Documents/LaTeXTemplates_medium-length-professional-cv_v3.0/Resume Gstoettner J 2025.tex
+INPUT /home/u/Documents/resume/Resume Gstoettner J 2025.tex
 OUTPUT Resume Gstoettner J 2025.log
 INPUT ./resume.cls
 INPUT ./resume.cls
