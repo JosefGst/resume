@@ -3,8 +3,8 @@ INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/u/Documents/resume/Resume Gstoettner J 2025.tex
-OUTPUT Resume Gstoettner J 2025.log
+INPUT /home/u/Documents/resume/Resume_Gstoettner_J_2025.tex
+OUTPUT Resume_Gstoettner_J_2025.log
 INPUT ./resume.cls
 INPUT ./resume.cls
 INPUT resume.cls
@@ -534,10 +534,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./Resume Gstoettner J 2025.aux
-INPUT Resume Gstoettner J 2025.aux
-INPUT Resume Gstoettner J 2025.aux
-OUTPUT Resume Gstoettner J 2025.aux
+INPUT ./Resume_Gstoettner_J_2025.aux
+INPUT Resume_Gstoettner_J_2025.aux
+INPUT Resume_Gstoettner_J_2025.aux
+OUTPUT Resume_Gstoettner_J_2025.aux
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -594,18 +594,18 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.st
 INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-INPUT ./Resume Gstoettner J 2025.out
-INPUT Resume Gstoettner J 2025.out
-INPUT ./Resume Gstoettner J 2025.out
-INPUT Resume Gstoettner J 2025.out
-INPUT ./Resume Gstoettner J 2025.out
-INPUT Resume Gstoettner J 2025.out
-INPUT ./Resume Gstoettner J 2025.out
-INPUT Resume Gstoettner J 2025.out
-INPUT ./Resume Gstoettner J 2025.out
-INPUT ./Resume Gstoettner J 2025.out
-OUTPUT Resume Gstoettner J 2025.out
-OUTPUT Resume Gstoettner J 2025.pdf
+INPUT ./Resume_Gstoettner_J_2025.out
+INPUT Resume_Gstoettner_J_2025.out
+INPUT ./Resume_Gstoettner_J_2025.out
+INPUT Resume_Gstoettner_J_2025.out
+INPUT ./Resume_Gstoettner_J_2025.out
+INPUT Resume_Gstoettner_J_2025.out
+INPUT ./Resume_Gstoettner_J_2025.out
+INPUT Resume_Gstoettner_J_2025.out
+INPUT ./Resume_Gstoettner_J_2025.out
+INPUT ./Resume_Gstoettner_J_2025.out
+OUTPUT Resume_Gstoettner_J_2025.out
+OUTPUT Resume_Gstoettner_J_2025.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-ot1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Bold-osf-ot1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
@@ -620,9 +620,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Bold-osf-ot1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Italic-osf-ot1.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT Resume Gstoettner J 2025.aux
-INPUT ./Resume Gstoettner J 2025.out
-INPUT ./Resume Gstoettner J 2025.out
+INPUT Resume_Gstoettner_J_2025.aux
+INPUT ./Resume_Gstoettner_J_2025.out
+INPUT ./Resume_Gstoettner_J_2025.out
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_tsrvmb.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_fc2mbn.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb
