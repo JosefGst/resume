@@ -616,7 +616,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Bold-osf-ot1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Italic-osf-ot1.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
@@ -629,4 +628,3 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bol
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb

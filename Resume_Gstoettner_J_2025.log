@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.4.20)  12 JUN 2025 11:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.4.20)  12 JUN 2025 11:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -358,18 +358,18 @@ Package rerunfilecheck Info: File `Resume_Gstoettner_J_2025.out' has not changed
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10045 strings out of 478287
- 162521 string characters out of 5849289
- 463712 words of memory out of 5000000
- 28113 multiletter control sequences out of 15000+600000
- 479044 words of font info for 43 fonts, out of 8000000 for 9000
+ 10042 strings out of 478287
+ 162488 string characters out of 5849289
+ 462623 words of memory out of 5000000
+ 28111 multiletter control sequences out of 15000+600000
+ 478876 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,5n,76p,543b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_tsrvmb.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_fc2mbn.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Resume_Gstoettner_J_2025.pdf (1 page, 317183 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_tsrvmb.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_fc2mbn.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Resume_Gstoettner_J_2025.pdf (1 page, 303813 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 35 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
