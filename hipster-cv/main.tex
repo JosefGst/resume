@@ -28,7 +28,7 @@
 
 
 
-\header{\bg{headerfontbox}{headerfontboxfont}{Robotics Engineer} }{\bgupper{headerfontbox}{headerfontboxfont}{\bfseries\Huge Josef Gstoettner}}{\bg{headerfontbox}{headerfontboxfont}{\large Pirate}}{profile_cropt.png}{headerblue}{3.5cm}{2cm}
+\header{\bg{headerfontbox}{headerfontboxfont}{Robotics Engineer} }{\bgupper{headerfontbox}{headerfontboxfont}{\bfseries\Huge Josef Gstoettner}}{\bg{headerfontbox}{headerfontboxfont}{\large \faGraduationCap~ Masters in Mechanical Engineering}}{profile_cropt.png}{headerblue}{3.5cm}{2cm}
 
 
 
@@ -52,10 +52,11 @@
 \footnotesize
 {\setasidefontcolour
 \bgupper{cvgreen}{white}{Facts} \\
-\bg{cvgreen}{white}{personal} \\
+\bg{cvgreen}{white}{Contact} \\
 
 \begin{tabular}{ll}
-\faMale& Josef Gstoettner \\
+\faPhone& +852 9322 5289 \\
+\faAt& \protect\href{mailto:jgstoettner@connect.ust.hk}{jgstoettner@connect.ust.hk} \\
 % \faGlobe& nationality: English  \\
 % \faBirthdayCake&1690 \\
 % \faMapMarker&on a ship \\
@@ -65,7 +66,7 @@
 
 \bg{cvgreen}{white}{Areas of specialization} \\
 
-ROS / ROS 2 ~•~ CAD / CAE ~•~ Parler
+ROS / ROS 2 mobile robots ~•~ CAD / CAE %~•~ Parler
 
 \bigskip
 
@@ -124,54 +125,69 @@ ROS / ROS 2 ~•~ CAD / CAE ~•~ Parler
 %-----------------------------------------------------------
 \switchcolumn
 
+C++ and Python developer with experience in ROS. Makes robots navigate autonomously. Well rounded
+robotics engineer, can work on software, mechanics and electronics.
+
 \small
 \section*{Short Resumé}
 
 \begin{tabular}{r| p{0.4\textwidth} c}
-    \cvevent{2022--2024}{Systems Engineer}{ROS}{LSCM\color{cvred}}{Set up SLAM (cartographer, slamtoolbox, rtabmap) and NAV2 on autonomous mobile robots.}{assets/LSCM.jpg} \\
+    \cvevent{2022--2024}{System Engineer}{ROS}{LSCM\color{cvred}}{Set up SLAM (cartographer, slamtoolbox, rtabmap) and NAV2 on autonomous mobile robots.}{assets/LSCM.jpg} \\
     \cvevent{2020--2022}{Research Assistant}{Embedded Software}{HKUST \color{cvred}}{Developed a weight scale with RFID scanner for automated storage records in chemical Labs on Arduino MCU.}{assets/ust.png} \\
-    \cvevent{2019--2020}{Mechanical Engineer}{CAD design}{KALBAS \color{cvred}}{Designed, 3D-printed and created tool-paths for CNC machining of fish lure prototypes.}{medal.jpeg}
+    \cvevent{2019--2020}{Mechanical Engineer}{CAD design}{KALBAS \color{cvred}}{Designed, 3D-printed and created tool-paths for CNC machining of fish lure prototypes.}{assets/empty.png}
 \end{tabular}
 
 \vspace{4em}
 
-\begin{minipage}[t]{0.4\textwidth}
-\section*{Degrees}
-\begin{tabular}{r p{0.6\textwidth} c}
-    \cvdegree{1710}{Captain}{Certified}{Tortuga Uni \color{headerblue}}{}{disney.png} \\
-    \cvdegree{1715}{Bucaneering}{M.A.}{London \color{headerblue}}{}{medal.jpeg} \\
-    \cvdegree{1720}{Bucaneering}{B.A.}{London \color{headerblue}}{}{medal.jpeg}
-\end{tabular}
-\end{minipage}\hfill
-\begin{minipage}[t]{0.16\textwidth}
-\section*{Hobbies}
-% usage \hobbyicon{<fontawesome icon}{Text}{background color of circle}{size of icon}{space text below icon}
-\hobbyicon{\color{iconcolour}\faFlask}{Rhum}{cvgreen}{\iconsize}{2em} \hfill
-\hobbyicon{\color{iconcolour}\faBook}{The Code}{cvorange}{\iconsize}{2em}
+\section*{Projects}
 
-\hobbyicon{\color{iconcolour}\faComment}{Parler}{cvpurple}{\iconsize}{2em} \hspace{1em}
-\hobbyicon{\color{iconcolour}\faBeer}{Beer}{headerblue}{\iconsize}{2em}
-\end{minipage}
+\begin{tabular}{r| p{0.4\textwidth} c}
+    \cvevent{2023}{Lingao ROS 2}{ROS 2}{Personal side Project}{Build an autonomous mobile robot from scratch for outdoor environment.}{assets/empty.png} \\
+    \cvevent{2021--2022}{Red Bird Racing}{Autonomous Racing}{HKUST \color{cvred}}{Cone detection with OpenCV and autonomous race car control-algorithm in ROS}{assets/red_bird.png} \\
+    \cvevent{2021--2022}{Robomaster}{Software team}{HKUST \color{cvred}}{SLAM and navigation for autonomous Robot in ROS and embedded software development on STM32.}{assets/robo_master.jpg} \\
+    \cvevent{2020--2021}{Autonomous RC-car race (first place \faTrophy)}{Imitation Learning}{HKUST \color{cvred}}{Trained Pytorch model on the Jetson Nano for autonomous-driving, obstacle avoidance and overtaking of other cars.}{assets/autorace.png}
+\end{tabular}
+
+% \vspace{4em}
+
+
+% \begin{minipage}[t]{0.4\textwidth}
+% \section*{Degrees}
+% \begin{tabular}{r p{0.6\textwidth} c}
+%     \cvdegree{1710}{Captain}{Certified}{Tortuga Uni \color{headerblue}}{}{disney.png} \\
+%     \cvdegree{1715}{Bucaneering}{M.A.}{London \color{headerblue}}{}{medal.jpeg} \\
+%     \cvdegree{1720}{Bucaneering}{B.A.}{London \color{headerblue}}{}{medal.jpeg}
+% \end{tabular}
+% \end{minipage}\hfill
+% \begin{minipage}[t]{0.16\textwidth}
+% \section*{Hobbies}
+% % usage \hobbyicon{<fontawesome icon}{Text}{background color of circle}{size of icon}{space text below icon}
+% \hobbyicon{\color{iconcolour}\faFlask}{Rhum}{cvgreen}{\iconsize}{2em} \hfill
+% \hobbyicon{\color{iconcolour}\faBook}{The Code}{cvorange}{\iconsize}{2em}
+
+% \hobbyicon{\color{iconcolour}\faComment}{Parler}{cvpurple}{\iconsize}{2em} \hspace{1em}
+% \hobbyicon{\color{iconcolour}\faBeer}{Beer}{headerblue}{\iconsize}{2em}
+% \end{minipage}
 
 \vspace{4em}
 
-\begin{minipage}[t]{0.3\textwidth}
-\section*{Certificates \& Grants}
-\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth}}
-    1708 & Captain's Certificates \\
-    1710 & Travel grant \\
-    1715--1716 & Grant from the Pirate's Company
-\end{tabular}
-\section*{Strenghts}
-\cvtag{honest}
-\cvtag{thieving}
-\cvtag{handsome}
-\section*{References}
-\cvkeyword{Will Turner}{cvgreen}{iconcolour}
-\cvkeyword{Barbossa}{cvgreen}{iconcolour} \\
+% \begin{minipage}[t]{0.3\textwidth}
+% \section*{Certificates \& Grants}
+% \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth}}
+%     1708 & Captain's Certificates \\
+%     1710 & Travel grant \\
+%     1715--1716 & Grant from the Pirate's Company
+% \end{tabular}
+% \section*{Strenghts}
+% \cvtag{honest}
+% \cvtag{thieving}
+% \cvtag{handsome}
+% \section*{References}
+% \cvkeyword{Will Turner}{cvgreen}{iconcolour}
+% \cvkeyword{Barbossa}{cvgreen}{iconcolour} \\
 
-\cvkeyword{possibly Mr. Swan}{headerblue}{iconcolour}
-\end{minipage}\hfill
+% \cvkeyword{possibly Mr. Swan}{headerblue}{iconcolour}
+% \end{minipage}\hfill
 % \begin{minipage}[t]{0.3\textwidth}
 % \section*{Publications}
 % \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.7\textwidth}}
@@ -200,7 +216,9 @@ ROS / ROS 2 ~•~ CAD / CAE ~•~ Parler
 \setlength{\parindent}{0pt}
 \begin{minipage}[t]{\rightcolwidth}
 \begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
-{\small Jack Sparrow \icon{\faGithub}{cvpurple}{} \protect\url{https://github.com/JosefGst} \icon{\faMapMarker}{cvpurple}{} Tortuga \icon{\faPhone}{cvpurple}{} +852 9322 5289 \newline\icon{\faAt}{cvpurple}{} \protect\url{jgstoettner@connect.ust.hk}
+{\small Josef Gstoettner \icon{\faPhone}{cvpurple}{} +852 9322 5289 \icon{\faAt}{cvpurple}{} \protect\url{jgstoettner@connect.ust.hk} \\ 
+\icon{\faGithub}{cvpurple}{} \protect\url{https://github.com/JosefGst} \\ 
+\icon{\faLinkedin}{cvpurple}{} \protect\url{https://www.linkedin.com/in/josef-gstoettner-437630172/} 
 }
 \end{center}
 \end{minipage}
