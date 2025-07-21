@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1752809082 "/home/u/Documents/resume/resume/hipster-cv/main.tex" "main.pdf" "main" 1752809083
+["pdflatex"] 1753082884 "/home/u/Documents/resume/resume/hipster-cv/main.tex" "main.pdf" "main" 1753082885
   "/etc/texmf/web2c/texmf.cnf" 1745140824 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/u/Documents/resume/resume/hipster-cv/main.tex" 1752809081 10079 ae6a3caa3bedbd6c968182e894d70023 ""
+  "/home/u/Documents/resume/resume/hipster-cv/main.tex" 1753082884 10108 7c7b0a248ee5c573a25030d0256bbac9 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc" 1463430686 2437 443c81fb50993bacedc5f9a206c322b0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -223,16 +223,16 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1745142473 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1745142487 2799372 d4a4addca49a284af9547943a190148e ""
   "assets/LSCM.jpg" 1752547658 6927 a8c1e841766936b83564f1fc5aa48b20 ""
-  "assets/autorace.png" 1752558599 13748 27d99c8243f7fc3b337aa4c164f0d76f ""
+  "assets/autorace.png" 1753082880 12707 0e7433a5e716c525de84581d390b4bb4 ""
   "assets/empty.png" 1752558432 685 49ada36ccfe6ae20b0ec0a67093bfec0 ""
   "assets/red_bird.png" 1752558091 348336 ced929b7d25832419ceda09c1963bba4 ""
   "assets/robo_master.jpg" 1752558011 75326 9609d75472337a0c922a8c007a3b2b33 ""
   "assets/ust.png" 1752548011 7224 cc41062ba746bdf7b8af31e6359373d4 ""
   "hipstercv.cls" 1752483856 9173 34342d651b48513e899aed8085d3f8ba ""
   "hipstercv.sty" 1752559457 7686 8aadd014487586f8f17835e8698510d0 ""
-  "main.aux" 1752809083 729 22231a8f1d5632e5ea761b642d05c3ad "pdflatex"
-  "main.out" 1752809082 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1752809081 10079 ae6a3caa3bedbd6c968182e894d70023 ""
+  "main.aux" 1753082885 729 22231a8f1d5632e5ea761b642d05c3ad "pdflatex"
+  "main.out" 1753082885 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1753082884 10108 7c7b0a248ee5c573a25030d0256bbac9 ""
   "profile_cropt.png" 1752547174 166131 56b6a1affa6e7d099e9eddce99f7f86a ""
   (generated)
   "main.aux"
