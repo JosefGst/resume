@@ -28,7 +28,7 @@
 
 
 
-\header{\bg{headerfontbox}{headerfontboxfont}{Robotics Engineer} }{\bgupper{headerfontbox}{headerfontboxfont}{\bfseries\Huge Josef Gstoettner}}{\bg{headerfontbox}{headerfontboxfont}{\large \faGraduationCap~ Masters in Mechanical Engineering HKUST}}{profile_cropt.png}{headerblue}{3.5cm}{2cm}
+\header{\bg{headerfontbox}{headerfontboxfont}{Software Developer} }{\bgupper{headerfontbox}{headerfontboxfont}{\bfseries\Huge Josef Gstoettner}}{\bg{headerfontbox}{headerfontboxfont}{\large \faGraduationCap~ Masters in Mechanical Engineering HKUST}}{profile_cropt.png}{headerblue}{3.5cm}{2cm}
 
 
 
@@ -71,32 +71,37 @@
 
 \bgupper{cvgreen}{white}{Education} \\
 
-% -2021 Zhejiang University, One year Mandarin language program \\
--2019 HKUST, Masters in Mechanical Engineering  \\
-% -2018 Southwest Jiaotong University, One year Mandarin language program\\
--2017 University of Applied Sciences Upper Austria, Undergraduate in Mechanical Engineering  \\
+\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.0em} \vspace{-0.5em}
+
+    % -2021 Zhejiang University, One year Mandarin language program \\
+    \item 2019 HKUST, Masters in Mechanical Engineering 
+    % -2018 Southwest Jiaotong University, One year Mandarin language program\\
+    \item 2017 University of Applied Sciences Upper Austria, Undergraduate in Mechanical Engineering  \\
+\end{list}
 
 \bigskip
 
 \bgupper{cvgreen}{white}{Skills} \\
 
 \bg{cvgreen}{white}{Areas of specialization} \\
-
- - ROS / ROS 2 \\
- - Robot Simulations in Gazebo \& Isaacsim\\
- - Embedded software for ESP32, Arduino, STM32, NRF52 \\
- - CAD design in Fusion360 \& Solidworks\\
- - 3D printing, CNC machining and laser cutting 
-
+\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+    \item ROS / ROS 2
+    \item Robot Simulations in Gazebo \& Isaacsim
+    \item Embedded software for ESP32, Arduino, STM32, NRF52 
+    \item CAD design in Fusion360 \& Solidworks
+    \item 3D printing, CNC machining and laser cutting 
+\end{list}
 \bigskip
 
 % \vspace{4em}
 
 \bg{cvgreen}{white}{Learning \& Hobbies} \\
 
-- PCB design with KiCAD \\
-- Game development in Godot \\ 
-- Mandarin and Cantonese
+\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+    \item PCB design with KiCAD 
+    \item Game development in Godot 
+    \item Mandarin and Cantonese
+\end{list}
 
 \bigskip
 % \vspace{4em}
@@ -129,9 +134,9 @@
         \bg{skilllabelcolour}{iconcolour}{C / C++} & \barrule{0.5}{0.5em}{cvpurple} \\
         \bg{skilllabelcolour}{iconcolour}{C\#} & \barrule{0.4}{0.5em}{cvpurple} \\
         \bg{skilllabelcolour}{iconcolour}{Matlab} & \barrule{0.4}{0.5em}{cvpurple} \\
-        \bg{skilllabelcolour}{iconcolour}{Docker} & \barrule{0.4}{0.5em}{cvpurple} \\
-        \bg{skilllabelcolour}{iconcolour}{html, css} &  \barrule{0.3}{0.5em}{cvpurple}\\
-        \bg{skilllabelcolour}{iconcolour}{javascript} & \barrule{0.3}{0.5em}{cvpurple} \\
+        \bg{skilllabelcolour}{iconcolour}{Docker} & \barrule{0.3}{0.5em}{cvpurple} \\
+        \bg{skilllabelcolour}{iconcolour}{javascript} & \barrule{0.2}{0.5em}{cvpurple} \\
+        \bg{skilllabelcolour}{iconcolour}{html, css} &  \barrule{0.2}{0.5em}{cvpurple}\\
         %  \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.55}{0.5em}{cvgreen} \\
     \end{tabular}
     
@@ -159,26 +164,51 @@
 \switchcolumn
 
 C++ and Python developer with experience in ROS. Makes robots navigate autonomously. Well rounded
-mechatronics engineer. Can work on software, mechanics and electronics.
+mechatronics engineer. Can work on software and mechanics.
 
 \small
 \section*{Short Resumé}
 
-\begin{tabular}{r| p{0.4\textwidth} c}
-    \cvevent{2022/4--2024/8}{System Engineer}{ROS robot programming}{LSCM\color{cvred}}{- Set up SLAM (cartographer, slamtoolbox, rtabmap) and navigation on autonomous mobile robots.  \newline - Developed motor drivers and autonomous docking in C++ and Python. \newline - Experience with wide range of sensors (3D LiDAR, depth cameras, IMU, GPS, Sonar.).}{assets/LSCM.jpg} \\
-    \cvevent{2020/7--2022/3}{Research Assistant}{Embedded Software}{HKUST \color{cvred}}{- Developed a weight scale with RFID scanner for automated storage records in chemical Labs on Arduino MCU. \newline - Firmware development on a low power IoT accelerometer with BLE Mesh for predictive maintenance based on Nrf52.}{assets/ust.png} \\
-    \cvevent{2019/8--2020/4}{Mechanical Engineer}{CAD design}{KALBAS \color{cvred}}{- Designed, 3D-printed and created tool-paths for CNC machining of fish lure prototypes.}{assets/empty.png}
+\begin{tabular}{p{0.55\textwidth} c}
+    \cvevent{2022/4--2024/8}{System Engineer}{ROS robot programming}{LSCM\color{cvred}}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+        \item Made robots navigate autonomously and safe with extensive parameter tuning.  
+        \item Set up SLAM (cartographer, slamtoolbox, rtabmap) for mapping of large areas.
+        \item Simulated robots in Gazebo for testing and development.
+        \item Create ros-nodes to interface with actuators and sensors via Serial or RS485.
+        \item Developed autonomous docking utilizing apriltags for precise movement.
+        \item Established communication to server via MQTT for fleet management.
+        \item Tuned PID controllers for smooth movement and speed control.
+        \item Experience with wide range of sensors (3D LiDAR, depth cameras, IMU, GPS).
+    \end{list}}{assets/LSCM.jpg} \\
+    \cvevent{2020/7--2022/3}{Research Assistant}{Embedded Software}{HKUST \color{cvred}}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+        \item Developed a weight scale with RFID scanner for automated storage records in chemical Labs on Arduino MCU. 
+        \item CAD design for 3D print and laser cut of prototypes.
+        \item Firmware development on a low power IoT accelerometer with BLE Mesh for predictive maintenance based on Nrf52.
+        \item Simulated steal beam in Ansys for natural frequency analysis.
+        \end{list}}{assets/ust.png}\\
+    \cvevent{2019/8--2020/4}{Mechanical Engineer}{CAD design}{KALBAS \color{cvred}}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+        \item Designed, 3D-printed and created tool-paths for CNC machining of fish lure prototypes.
+        \end{list}}{assets/empty.png}
 \end{tabular}
 
 % \vspace{4em}
 
 \section*{Projects}
 
-\begin{tabular}{r| p{0.4\textwidth} c}
-    \cvevent{2023/8}{Lingao ROS 2}{ROS 2}{Personal side Project}{\faGithub~ \url{https://github.com/JosefGst/lingao_ros2} \newline Built an autonomous mobile robot from scratch for outdoor environment.}{assets/empty.png} \\
-    \cvevent{2021/11--2022/4}{Red Bird Racing}{Autonomous Racing}{HKUST \color{cvred}}{Cone detection with OpenCV and autonomous race car control-algorithm in ROS}{assets/red_bird.png} \\
-    \cvevent{2021/10--2022/4}{Robomaster}{Software team}{HKUST \color{cvred}}{SLAM and navigation for autonomous Robot in ROS and embedded software development on STM32.}{assets/robo_master.jpg} \\
-    \cvevent{2020/12--2021/3}{Autonomous RC-car race (first place \faTrophy)}{Imitation Learning}{HKUST \color{cvred}}{\faGithub~ \protect\url{https://github.com/JosefGst/autorace} \newline Trained Pytorch model on the Jetson Nano for autonomous-driving, obstacle avoidance and overtaking of other cars.}{assets/autorace.png}
+\begin{tabular}{p{0.55\textwidth} c}
+    \cvevent{2023/8}{Lingao ROS 2}{ROS 2}{Personal Project \faGithub~ \url{https://github.com/JosefGst/lingao_ros2}}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+        \item Built an autonomous mobile robot from scratch for outdoor environment.
+    \end{list}}{assets/empty.png} \\
+    \cvevent{2021/11--2022/4}{Red Bird Racing}{Autonomous Racing}{HKUST \color{cvred}}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+        \item Cone detection with OpenCV and autonomous race car control-algorithm in ROS
+        \end{list}}{assets/red_bird.png} \\
+    \cvevent{2021/10--2022/4}{Robomaster}{Software team}{HKUST \color{cvred}}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+        \item SLAM and navigation for autonomous Robots in ROS
+        \item Embedded software development on STM32.
+        \end{list}}{assets/robo_master.jpg} \\
+    \cvevent{2020/12--2021/3}{Autonomous RC-car race (first place \faTrophy)}{Imitation Learning}{HKUST \faGithub\protect\url{https://github.com/JosefGst/autorace}}{ \vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+        \item Trained Pytorch model to be used on Jetson Nano for autonomous-driving, obstacle avoidance and overtaking of other cars.
+    \end{list}}{assets/autorace.png}
 \end{tabular}
 
 % \vspace{4em}
@@ -239,8 +269,13 @@ mechatronics engineer. Can work on software, mechanics and electronics.
 
 
 
-
-
+% prototype lists
+% \begin{list}{$\cdot$}
+%     {\leftmargin=0em}\setlength{\itemsep}{-0.5em} \vspace{-0.5em}
+%     \item Set up SLAM (cartographer, slamtoolbox, rtabmap) and navigation on autonomous mobile robots.  
+%     \item Developed motor drivers and autonomous docking in C++ and Python. 
+%     \item Experience with wide range of sensors (3D LiDAR, depth cameras, IMU, GPS, Sonar.).
+% \end{list}
 
 
 
