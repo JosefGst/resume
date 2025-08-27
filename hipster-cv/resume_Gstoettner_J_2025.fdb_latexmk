@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1756260409 "/home/u/Documents/resume/resume/hipster-cv/resume_Gstoettner_J_2025.tex" "resume_Gstoettner_J_2025.pdf" "resume_Gstoettner_J_2025" 1756260411
+["pdflatex"] 1756278096 "/home/u/Documents/resume/resume/hipster-cv/resume_Gstoettner_J_2025.tex" "resume_Gstoettner_J_2025.pdf" "resume_Gstoettner_J_2025" 1756278098
   "/etc/texmf/web2c/texmf.cnf" 1745140824 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/u/Documents/resume/resume/hipster-cv/resume_Gstoettner_J_2025.tex" 1756260409 12330 a8e60a8b6e521d475922e14ff0f1fab8 ""
+  "/home/u/Documents/resume/resume/hipster-cv/resume_Gstoettner_J_2025.tex" 1756278096 12886 778641ad616869625bb65eda3160e70e ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc" 1463430686 2437 443c81fb50993bacedc5f9a206c322b0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -226,15 +226,16 @@
   "assets/LSCM.jpg" 1752547658 6927 a8c1e841766936b83564f1fc5aa48b20 ""
   "assets/autorace.png" 1753082880 12707 0e7433a5e716c525de84581d390b4bb4 ""
   "assets/empty.png" 1752558432 685 49ada36ccfe6ae20b0ec0a67093bfec0 ""
+  "assets/fh-wels.png" 1756274067 26912 cf9462d327f8758f7c418a4aefcedb31 ""
   "assets/red_bird.png" 1752558091 348336 ced929b7d25832419ceda09c1963bba4 ""
   "assets/robo_master.jpg" 1752558011 75326 9609d75472337a0c922a8c007a3b2b33 ""
-  "assets/ust.png" 1752548011 7224 cc41062ba746bdf7b8af31e6359373d4 ""
+  "assets/ust.png" 1756261673 2737 41f8df0d323f9d96a3373c73b73ff65f ""
   "hipstercv.cls" 1752483856 9173 34342d651b48513e899aed8085d3f8ba ""
-  "hipstercv.sty" 1753671752 7691 b7be5c8b53965840f519bf023f337a41 ""
+  "hipstercv.sty" 1756261437 7691 ba89f622b0f18a51cbc45f398819c62f ""
   "profile_cropt.png" 1752547174 166131 56b6a1affa6e7d099e9eddce99f7f86a ""
-  "resume_Gstoettner_J_2025.aux" 1756260411 729 22231a8f1d5632e5ea761b642d05c3ad "pdflatex"
-  "resume_Gstoettner_J_2025.out" 1756260410 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "resume_Gstoettner_J_2025.tex" 1756260409 12330 a8e60a8b6e521d475922e14ff0f1fab8 ""
+  "resume_Gstoettner_J_2025.aux" 1756278097 729 22231a8f1d5632e5ea761b642d05c3ad "pdflatex"
+  "resume_Gstoettner_J_2025.out" 1756278097 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "resume_Gstoettner_J_2025.tex" 1756278096 12886 778641ad616869625bb65eda3160e70e ""
   (generated)
   "resume_Gstoettner_J_2025.aux"
   "resume_Gstoettner_J_2025.log"

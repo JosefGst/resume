@@ -47,7 +47,7 @@
 % Format of the section titles
 \titleformat{\section}{
 \scshape\Large\raggedright}{}{0em}{}[\titlerule] % smallcaps, Large, continuous line - looks better if two columns, might look a bit too dramatic if just one ;) 
-\titlespacing{\section}{0pt}{12pt}{5pt} % Spacing around titles {<left spacing>}{<before spacing>}{<after spacing>}
+\titlespacing{\section}{0pt}{0pt}{5pt} % Spacing around titles {<left spacing>}{<before spacing>}{<after spacing>}
 %----------------------------------------------------
 
  \newcommand{\cvkeyword}[3]{
@@ -175,7 +175,7 @@
 {\color{#3}\rule[\baselineskip]{#1\textwidth}{#2}}\vspace{0.5em}
 }
 
-\newcommand{\cvevent}[6]{\textbf{#2} \hfill {#1} \newline\textsc{#3} $\cdot$ {#4 ~}\newline{\color{black!70}\footnotesize #5}\vspace{1.5em} & \raisebox{-0.7\height}{\includegraphics[width=1cm]{#6}}}
+\newcommand{\cvevent}[6]{\textbf{#2} \hfill {#1} \newline\textsc{#3} $\cdot$ {#4 ~}\newline{\color{black!70}\footnotesize #5}\vspace{1.5em} & \raisebox{-0.7\height}{\includegraphics[width=.8cm]{#6}}}
 
 \newcommand{\cvdegree}[6]{{#1} & \textbf{#2}\newline\textsc{#3} $\cdot$ {#4 {\phantom{i}\footnotesize ~\faUniversity}}\newline{\color{black!70}\scriptsize #5}\vspace{0.5em} & \raisebox{-0.7\height}{\includegraphics[height=0.5cm]{#6}}}
 
