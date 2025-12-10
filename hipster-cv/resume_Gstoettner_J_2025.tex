@@ -87,15 +87,17 @@
 \begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.em} \vspace{-0.em}
     \item ROS / ROS 2 (Navigation, SLAM, Moveit)
     \item Robot Simulation in Gazebo \& Isaacsim
-    \item Theory of robot arm kinematics
-    \item Embedded software (STM32, Arduino, Nrf52) 
+    \item Behavior trees, robot task management
+    \item Object-oriented programming
+    \item PID control and robot kinematics
+    \item Embedded software (STM32, Arduino) 
     \item 3D modelling in Fusion360 \& Solidworks
     \item 3D printing, CNC machining and laser cutting 
 \end{list}
 \bigskip
 
 % \vspace{4em}
-\bg{cvgreen}{white}{IT \& programming} \\
+\bg{cvgreen}{white}{Programming} \\
 
 \begin{minipage}[t]{0.3\textwidth}
     \begin{tabular}{r @{\hspace{0.5em}}l}
@@ -103,7 +105,7 @@
         \bg{skilllabelcolour}{iconcolour}{C / C++} & \barrule{0.5}{0.5em}{cvpurple} \\
         \bg{skilllabelcolour}{iconcolour}{C\#} & \barrule{0.4}{0.5em}{cvpurple} \\
         \bg{skilllabelcolour}{iconcolour}{Matlab} & \barrule{0.4}{0.5em}{cvpurple} \\
-        \bg{skilllabelcolour}{iconcolour}{Docker} & \barrule{0.3}{0.5em}{cvpurple} \\
+        \bg{skilllabelcolour}{iconcolour}{Docker} & \barrule{0.4}{0.5em}{cvpurple} \\
         \bg{skilllabelcolour}{iconcolour}{Javascript} & \barrule{0.2}{0.5em}{cvpurple} \\
         \bg{skilllabelcolour}{iconcolour}{Html, Css} &  \barrule{0.2}{0.5em}{cvpurple}\\
         %  \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.55}{0.5em}{cvgreen} \\
@@ -123,7 +125,7 @@
 \begin{tabular}{l | ll}
 \textbf{English} & {\phantom{x}\footnotesize Full Professional} \\
 \textbf{Mandarin} & {\phantom{x}\footnotesize Limited Working} \\
-\textbf{Cantonese} & {\phantom{x}\footnotesize Elementary} \\
+% \textbf{Cantonese} & {\phantom{x}\footnotesize Elementary} \\
 \textbf{German} & {\phantom{x}\footnotesize Native} \\
 \end{tabular}
 \end{minipage}
@@ -137,7 +139,7 @@
     \item Game development in Godot
 \end{list}
 
-\bigskip
+% \bigskip
 \vspace{10em}
 
 % \bg{cvgreen}{white}{Interests}\\
@@ -164,7 +166,7 @@
 %-----------------------------------------------------------
 \switchcolumn
 
-C++ and Python developer specialized in ROS, navigation and SLAM. 
+C++ and Python developer specialized in ROS, navigation, SLAM and behavior trees for reliable autonomous mobile robots.
 Has a strong understanding of mechanical engineering principles, object-oriented programming and robot dynamics to optimize system performance.
 \small
 
@@ -173,9 +175,15 @@ Has a strong understanding of mechanical engineering principles, object-oriented
 \section*{Work History}
 
 \begin{tabular}{p{0.55\textwidth} c}
+    \cvevent{2025/9--present}{Assistant Research Engineer}{ROS robot programming}{HKCRC | Sciences Park}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+        \item Develope autonomous reliable tasks and recovery behaviors for a water tank cleaning robot with behavior trees.
+        \item Set up navigation, SLAM \& coverage planner to fully clean the whole surface.
+        \item Utilize Docker to package the whole robot software plus development tools for hassle free development and deployment.
+        \item Create relalistic Gazebo simulations to reduce unexpected issues when deploying.
+    \end{list}}{assets/HKCRC.png} \\
     \cvevent{2022/4--2024/8}{System Engineer}{ROS robot programming}{LSCM | Sciences Park}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
         \item Made robots navigate autonomously, smoothly and avoid obstacles.
-        \item Set up SLAM (Cartographer, SlamToolbox, ...) for 3D mapping of large areas.
+        \item Set up SLAM (Cartographer, SlamToolbox, ...) for 2D/3D mapping of large areas.
         \item Simulated robots in Gazebo for testing and faster development.
         \item Created object-oriented ROS nodes in C++ to interface with actuators and sensors.
         \item Developed autonomous docking utilizing AprilTags for precise movement.
@@ -188,9 +196,9 @@ Has a strong understanding of mechanical engineering principles, object-oriented
         \item Firmware development on a low-power IoT accelerometer with BLE Mesh for predictive maintenance based on Nrf52.
         \item Simulated a steel beam in Ansys for natural frequency analysis.
         \end{list}}{assets/ust.png}\\
-    \cvevent{2019/8--2020/4}{Mechanical Engineer}{CAD design}{KALBAS | Cheung Sha Wan}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
-        \item Designed, 3D-printed, and created tool paths for CNC machining of fish lure prototypes.
-        \end{list}}{assets/empty.png}
+    % \cvevent{2019/8--2020/4}{Mechanical Engineer}{CAD design}{KALBAS | Cheung Sha Wan}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+    %     \item Designed, 3D-printed, and created tool paths for CNC machining of fish lure prototypes.
+    %     \end{list}}{assets/empty.png}
 \end{tabular}
 
 
@@ -211,13 +219,13 @@ Has a strong understanding of mechanical engineering principles, object-oriented
     % \cvevent{2023/8}{Lingao ROS 2}{ROS 2}{Personal Project \faGithub~ \url{https://github.com/JosefGst/lingao_ros2}}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
     %     \item Built an autonomous mobile robot from scratch for outdoor environment.
     % \end{list}}{assets/empty.png} \\
-    \cvevent{2021/11--2022/4}{Red Bird Racing}{Autonomous Racing}{HKUST \color{cvred}}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
-        \item Cone detection with OpenCV and autonomous race car control-algorithm in ROS
-        \end{list}}{assets/red_bird.png} \\
+    % \cvevent{2021/11--2022/4}{Red Bird Racing}{Autonomous Racing}{HKUST \color{cvred}}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+    %     \item Cone detection with OpenCV and autonomous race car control-algorithm in ROS
+    %     \end{list}}{assets/red_bird.png} \\
     \cvevent{2021/10--2022/4}{Robomaster}{Software team}{HKUST \color{cvred}}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
         \item SLAM and navigation for autonomous Robots in ROS
         \item Embedded software development on STM32.
-        \end{list}}{assets/robo_master.jpg} \\
+    \end{list}}{assets/robo_master.jpg} \\
     \cvevent{2020/12--2021/3}{Autonomous RC-car race (first place \faTrophy)}{Imitation Learning}{HKUST \faGithub\protect\url{https://github.com/JosefGst/autorace}}{ \vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
         \item Trained Pytorch model to be used on Jetson Nano for autonomous-driving, obstacle avoidance and overtaking of other cars.
     \end{list}}{assets/autorace.png}
