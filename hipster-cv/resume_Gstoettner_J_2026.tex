@@ -1,0 +1,322 @@
+\documentclass[grey]{hipstercv}
+% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+
+
+%------------------------------------------------------------------ Variablen
+
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.3\textwidth}
+\setlength{\rightcolwidth}{0.65\textwidth}
+
+%------------------------------------------------------------------
+\title{Hipster-CV}
+\author{\LaTeX{} Ninja}
+\date{March 2019}
+
+\pagestyle{empty}
+\begin{document}
+
+
+\thispagestyle{empty}
+%-------------------------------------------------------------
+
+\section*{Start}
+
+
+
+\header{\bg{headerfontbox}{headerfontboxfont}{Robotics Software Developer} }{\bgupper{headerfontbox}{headerfontboxfont}{\bfseries\Huge Josef Gstoettner}}{\bg{headerfontbox}{headerfontboxfont}{\large ROS/ROS2 | C++ | Python | Gazebo}}{profile_cropt.png}{headerblue}{3.5cm}{2cm}
+
+
+
+%------------------------------------------------
+
+% hier muss die "unsichtbare" Überschrift rein, weil er sonst nicht die Paracols startet... komisch...
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.3}[0.65]
+\begin{paracol}{2}
+\hbadness5000
+%\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+\paracolbackgroundoptions
+
+% 0.9,0.9,0.9 -- 0.8,0.8,0.8
+
+
+\footnotesize
+{\setasidefontcolour
+\bgupper{cvgreen}{white}{Contact} \\
+
+% \bg{cvgreen}{white}{Contact} \\
+
+\begin{tabular}{ll}
+\faPhone& +852 9322 5289 \\
+\faAt& \protect\href{mailto:jgstoettner@connect.ust.hk}{jgstoettner@connect.ust.hk} \\
+\faGithub& \protect\url{https://github.com/JosefGst} \\
+\faRss& \protect\url{https://josefgst.github.io/blog/} \\
+\faLinkedin& \protect\href{https://www.linkedin.com/in/josef-gstoettner-437630172/}{Linkedin} \\
+
+% \faGlobe& nationality: English  \\
+% \faBirthdayCake&1690 \\
+% \faMapMarker&on a ship \\
+\end{tabular}
+
+\bigskip
+
+% \bgupper{cvgreen}{white}{Education} \\
+
+% \begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.0em} \vspace{-0.5em}
+
+%     % -2021 Zhejiang University, One year Mandarin language program \\
+%     \item 2019 HKUST, Masters in Mechanical Engineering 
+%     % -2018 Southwest Jiaotong University, One year Mandarin language program\\
+%     \item 2017 University of Applied Sciences Upper Austria, Undergraduate in Mechanical Engineering  \\
+% \end{list}
+
+% \bigskip
+
+\bgupper{cvgreen}{white}{Skills} \\
+
+\bg{cvgreen}{white}{Areas of specialization} \\
+\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.em} \vspace{-0.em}
+    \item ROS / ROS 2 (Navigation, SLAM, Moveit)
+    \item Robot Simulation in Gazebo \& Isaacsim
+    \item Behavior trees, robot task management
+    \item Object-oriented programming
+    \item PID control and robot kinematics
+    \item Embedded software (STM32, Arduino) 
+    \item 3D modelling in Fusion360 \& Solidworks
+    \item 3D printing, CNC machining and laser cutting 
+    \item 4 years of experience working with single board computers (Raspberry Pi, Jetson)
+\end{list}
+\bigskip
+
+% \vspace{4em}
+\bg{cvgreen}{white}{Programming} \\
+
+\begin{minipage}[t]{0.3\textwidth}
+    \begin{tabular}{r @{\hspace{0.5em}}l}
+        \bg{skilllabelcolour}{iconcolour}{Python} & \barrule{0.5}{0.5em}{cvpurple} \\
+        \bg{skilllabelcolour}{iconcolour}{C / C++} & \barrule{0.5}{0.5em}{cvpurple} \\
+        \bg{skilllabelcolour}{iconcolour}{C\#} & \barrule{0.4}{0.5em}{cvpurple} \\
+        \bg{skilllabelcolour}{iconcolour}{Matlab} & \barrule{0.4}{0.5em}{cvpurple} \\
+        \bg{skilllabelcolour}{iconcolour}{Docker} & \barrule{0.4}{0.5em}{cvpurple} \\
+        \bg{skilllabelcolour}{iconcolour}{Javascript} & \barrule{0.2}{0.5em}{cvpurple} \\
+        \bg{skilllabelcolour}{iconcolour}{Html, Css} &  \barrule{0.2}{0.5em}{cvpurple}\\
+        %  \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.55}{0.5em}{cvgreen} \\
+    \end{tabular}
+    
+\bigskip
+
+\color{labelcolour}{OS:} \hspace{0.5em}\icon{\faWindows}{labelcolour}{\Large} \hspace{0.5em} \icon{\faLinux}{labelcolour}{\Large} 
+ 
+\bigskip
+
+\bg{cvgreen}{white}{Languages}
+\bigskip
+
+
+% \begin{minipage}[t]{\leftcolwidth}
+\begin{tabular}{l | ll}
+\textbf{English} & {\phantom{x}\footnotesize Full Professional} \\
+\textbf{Mandarin} & {\phantom{x}\footnotesize Limited Working} \\
+% \textbf{Cantonese} & {\phantom{x}\footnotesize Elementary} \\
+\textbf{German} & {\phantom{x}\footnotesize Native} \\
+\end{tabular}
+% \end{minipage}
+
+\bigskip
+
+\bg{cvgreen}{white}{Learning \& Hobbies} \\
+
+\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.em} \vspace{-0.em}
+    \item PCB design with KiCAD 
+    \item Game development in Godot
+\end{list}
+
+% \bigskip
+\vspace{10em}
+
+% \bg{cvgreen}{white}{Interests}\\
+
+% \bubblediagram{{\textbf{a pirate's} \\\textbf{life}},  the sea, pillaging, plundering, ships, stealing, hijacking, \textbf{The Black}\\ \textbf{Pearl}}
+
+    
+    %\dashrule{}{}
+\end{minipage}
+
+
+
+
+% \bigskip
+
+% \scalebox{0.8}{
+% \iconcross{\Huge}{white}{cvred}{\color{black!30}\faBook}{\href{mailto:the.latex.ninja@gmail.com}{\faEnvelopeO}}{\faPhone}{\faCode}
+% }
+
+% \phantom{turn the page}
+
+% \phantom{turn the page}
+}
+%-----------------------------------------------------------
+\switchcolumn
+
+C++ and Python developer specialized in ROS, navigation, SLAM and behavior trees for reliable autonomous mobile robots.
+Has a strong understanding of mechanical engineering principles, object-oriented programming and robot dynamics to optimize system performance.
+\small
+
+\vspace{12pt}
+
+\section*{Work History}
+
+\begin{tabular}{p{0.55\textwidth} c}
+    \cvevent{2025/9--present}{Assistant Research Engineer}{ROS robot programming}{HKCRC | Sciences Park}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+        \item Develope autonomous, reliable tasks and recovery behaviors for a water tank cleaning robot using behavior trees.
+        \item Set up navigation, SLAM \& coverage planner to fully clean the whole surface.
+        \item Utilize Docker to package the whole robot software plus development tools for hassle free development and deployment.
+        \item Create relalistic Gazebo simulations for faster iterations and testing.
+    \end{list}}{assets/HKCRC.png} \\
+    \cvevent{2022/4--2024/8}{System Engineer}{ROS robot programming}{LSCM | Sciences Park}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+        \item Made robots navigate autonomously, smoothly and avoid obstacles.
+        \item Set up SLAM (Cartographer, SlamToolbox, ...) for 2D/3D mapping of large areas.
+        \item Simulated robots in Gazebo for testing and faster development.
+        \item Created object-oriented ROS nodes in C++ to interface with actuators and sensors.
+        \item Developed autonomous docking utilizing AprilTags for precise movement.
+        \item Tuned PID controllers for smooth movement and speed control.
+        \item Worked on a wide range of sensors (3D LIDAR, depth cameras, IMU, GPS, Sonar).
+    \end{list}}{assets/LSCM.jpg} \\
+    \cvevent{2020/7--2022/3}{Research Assistant}{Embedded Software}{HKUST | Clear Water Bay}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+        \item Developed a weight scale with an RFID scanner for automated storage records in chemical labs on an Arduino MCU.
+        \item CAD design for 3D printing and laser cutting of prototypes.
+        \item Firmware development on a low-power IoT accelerometer with BLE Mesh for predictive maintenance based on Nrf52.
+        \item Simulated a steel beam in Ansys for natural frequency analysis.
+        \end{list}}{assets/ust.png}\\
+    % \cvevent{2019/8--2020/4}{Mechanical Engineer}{CAD design}{KALBAS | Cheung Sha Wan}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+    %     \item Designed, 3D-printed, and created tool paths for CNC machining of fish lure prototypes.
+    %     \end{list}}{assets/empty.png}
+\end{tabular}
+
+
+\section*{Education}
+
+\begin{tabular}{p{0.55\textwidth} c}
+    \cvevent{2018/9--2019/6}{Master of Science: Mechanical Engineering}{}{HKUST | Clear Water Bay}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+        \item Relevant Courses: Robotics | Dynamics of Machines | Finite Element Analysis
+        \end{list}}{assets/ust.png} \\
+    \cvevent{2014/9--2017/6}{Bachelor of Science: Mechanical Engineering}{}{University of Applied Sciences Upper Austria | Austria}{\vspace{-1.em}}{assets/fh-wels.png}\\
+\end{tabular}
+
+% \vspace{4em}
+
+\section*{Projects}
+
+\begin{tabular}{p{0.55\textwidth} c}
+    % \cvevent{2023/8}{Lingao ROS 2}{ROS 2}{Personal Project \faGithub~ \url{https://github.com/JosefGst/lingao_ros2}}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+    %     \item Built an autonomous mobile robot from scratch for outdoor environment.
+    % \end{list}}{assets/empty.png} \\
+    % \cvevent{2021/11--2022/4}{Red Bird Racing}{Autonomous Racing}{HKUST \color{cvred}}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+    %     \item Cone detection with OpenCV and autonomous race car control-algorithm in ROS
+    %     \end{list}}{assets/red_bird.png} \\
+    \cvevent{2021/10--2022/4}{Robomaster}{Software team}{HKUST \color{cvred}}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+        \item SLAM and navigation for autonomous Robots in ROS
+        \item Embedded software development on STM32.
+    \end{list}}{assets/robo_master.jpg} \\
+    \cvevent{2020/12--2021/3}{Autonomous RC-car race (first place \faTrophy)}{Imitation Learning}{HKUST \faGithub\protect\url{https://github.com/JosefGst/autorace}}{ \vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+        \item Trained Pytorch model to be used on Jetson Nano for autonomous-driving, obstacle avoidance and overtaking of other cars.
+    \end{list}}{assets/autorace.png}
+\end{tabular}
+
+% \vspace{4em}
+
+% \section*{Education}
+
+% \begin{tabular}{r| p{0.4\textwidth} c}
+%     \cvevent{2019}{Masters in Mechanical Engineering}{HKUST}{HKUST \color{cvred}}{}{assets/ust.png} 
+% \end{tabular}
+
+% \begin{minipage}[t]{0.4\textwidth}
+% \section*{Degrees}
+% \begin{tabular}{r p{0.4\textwidth} c}
+%     \cvdegree{2019}{Masters in Mechanical Enginnering}{HKUST}{HK \color{headerblue}}{asdfasdfsafdsadfasfsafdsafdsafd}{assets/ust.png} \\
+%     % \cvdegree{2017}{Bachelor in Mechanical Enginnering}{University of Applied Sciences Upper Austria}{Austria \color{headerblue}}{}{medal.jpeg} \\
+% \end{tabular}
+% \end{minipage}\hfill
+% \begin{minipage}[t]{0.16\textwidth}
+% \section*{Hobbies}
+% % usage \hobbyicon{<fontawesome icon}{Text}{background color of circle}{size of icon}{space text below icon}
+% \hobbyicon{\color{iconcolour}\faFlask}{Rhum}{cvgreen}{\iconsize}{2em} \hfill
+% \hobbyicon{\color{iconcolour}\faBook}{The Code}{cvorange}{\iconsize}{2em}
+
+% \hobbyicon{\color{iconcolour}\faComment}{Parler}{cvpurple}{\iconsize}{2em} \hspace{1em}
+% \hobbyicon{\color{iconcolour}\faBeer}{Beer}{headerblue}{\iconsize}{2em}
+% \end{minipage}
+
+% \vspace{1em}
+
+% \begin{minipage}[t]{0.3\textwidth}
+% \section*{Certificates \& Grants}
+% \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth}}
+%     1708 & Captain's Certificates \\
+%     1710 & Travel grant \\
+%     1715--1716 & Grant from the Pirate's Company
+% \end{tabular}
+% \section*{Strenghts}
+% \cvtag{honest}
+% \cvtag{thieving}
+% \cvtag{handsome}
+% \section*{References}
+% \cvkeyword{Will Turner}{cvgreen}{iconcolour}
+% \cvkeyword{Barbossa}{cvgreen}{iconcolour} \\
+
+% \cvkeyword{possibly Mr. Swan}{headerblue}{iconcolour}
+% \end{minipage}\hfill
+% \begin{minipage}[t]{0.3\textwidth}
+% \section*{Publications}
+% \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.7\textwidth}}
+%     1729 & \emph{How I almost got killed by Lady Swan}, Tortuga Printing Press. \\
+%     1720 & ``Privateering for Beginners'', in: \emph{The Pragmatic Pirate} (1/1720).
+% \end{tabular}
+% \section*{Talks}
+% \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.6\textwidth}}
+%     Nov. 1726 & ``How I lost my ship (\& and how to get it back)'', at: \emph{Annual Pirate's Conference} in Tortuga, Nov. 1726.
+% \end{tabular}
+% \end{minipage}
+
+
+
+% prototype lists
+% \begin{list}{$\cdot$}
+%     {\leftmargin=0em}\setlength{\itemsep}{-0.5em} \vspace{-0.5em}
+%     \item Set up SLAM (cartographer, slamtoolbox, rtabmap) and navigation on autonomous mobile robots.  
+%     \item Developed motor drivers and autonomous docking in C++ and Python. 
+%     \item Experience with wide range of sensors (3D LiDAR, depth cameras, IMU, GPS, Sonar.).
+% \end{list}
+
+
+
+
+\vfill{} % Whitespace before final footer
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+\setlength{\parindent}{0pt}
+\begin{minipage}[t]{\rightcolwidth}
+\begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
+{\small Josef Gstoettner \icon{\faPhone}{cvpurple}{} +852 9322 5289 \icon{\faAt}{cvpurple}{} \protect\url{jgstoettner@connect.ust.hk} \\ 
+\icon{\faGithub}{cvpurple}{} \protect\url{https://github.com/JosefGst} \icon{\faRss}{cvpurple}{} \protect\url{https://josefgst.github.io/blog/} \\ 
+\icon{\faLinkedin}{cvpurple}{} \protect\url{https://www.linkedin.com/in/josef-gstoettner-437630172/} 
+}
+\end{center}
+\end{minipage}
+
+
+\end{paracol}
+
+\end{document}
