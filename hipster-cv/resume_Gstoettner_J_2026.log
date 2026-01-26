@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.1.26)  26 JAN 2026 14:29
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.1.26)  26 JAN 2026 14:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1066,11 +1066,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--89
  []
 
 
-Overfull \hbox (1.99619pt too wide) in paragraph at lines 97--98
-[]\TU/Raleway(0)/m/n/8 3D printing, CNC machining and laser cut-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
@@ -1083,24 +1078,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
  []
 
 
-Overfull \hbox (12.80386pt too wide) in paragraph at lines 105--155
+Overfull \hbox (12.80386pt too wide) in paragraph at lines 105--156
 [][] 
  []
 
 LaTeX Font Info:    Font shape `TU/Raleway(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 174.
+(Font)              scaled to size 9.0pt on input line 175.
 LaTeX Font Info:    Font shape `TU/Raleway(0)/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 178.
+(Font)              scaled to size 9.0pt on input line 179.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 180.
+(Font)              <9> on input line 181.
 LaTeX Font Info:    Font shape `TU/Raleway(0)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 186.
+(Font)              scaled to size 9.0pt on input line 187.
 File: assets/HKCRC.png Graphic file (type bmp)
 <assets/HKCRC.png>
 File: assets/LSCM.jpg Graphic file (type bmp)
 <assets/LSCM.jpg>
 File: assets/ust.png Graphic file (type bmp)
 <assets/ust.png>
+File: assets/kalbas.png Graphic file (type bmp)
+<assets/kalbas.png>
 File: assets/ust.png Graphic file (type bmp)
 <assets/ust.png>
 File: assets/xnjd.png Graphic file (type bmp)
@@ -1111,7 +1108,7 @@ File: assets/robo_master.jpg Graphic file (type bmp)
 <assets/robo_master.jpg>
 
 LaTeX Font Warning: Font shape `TU/FontAwesome(0)/b/n' undefined
-(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 235.
+(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 233.
 
 File: assets/autorace.png Graphic file (type bmp)
 <assets/autorace.png>
@@ -1130,12 +1127,12 @@ Package rerunfilecheck Info: File `resume_Gstoettner_J_2026.out' has not changed
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31772 strings out of 476443
- 704435 string characters out of 5793962
- 1968627 words of memory out of 5000000
- 53100 multiletter control sequences out of 15000+600000
+ 31781 strings out of 476443
+ 704629 string characters out of 5793962
+ 1963627 words of memory out of 5000000
+ 53108 multiletter control sequences out of 15000+600000
  565224 words of font info for 113 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
  131i,9n,135p,513b,778s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on resume_Gstoettner_J_2026.xdv (1 page, 57100 bytes).
+Output written on resume_Gstoettner_J_2026.xdv (1 page, 50892 bytes).

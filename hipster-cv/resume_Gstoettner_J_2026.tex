@@ -59,10 +59,10 @@
 
 \begin{tabular}{ll}
 \faPhone& +852 9322 5289 \\
-\faAt& \protect\href{mailto:gstoettnerjo@gmail.com}{gstoettnerjo@gmail.com} \\
-\faGithub& \protect\url{https://github.com/JosefGst} \\
-\faRss& \protect\url{https://josefgst.github.io/blog/} \\
-\faLinkedin& \protect\href{https://www.linkedin.com/in/josef-gstoettner-437630172/}{Linkedin} \\
+\faAt& \protect\href{mailto:gstoettnerjo@gmail.com}{gstoettnerjo@gmail.com} \\ [0.2em]
+\faGithub& \protect\url{https://github.com/JosefGst} \\[0.2em]
+\faRss& \protect\url{https://josefgst.github.io/blog/} \\[0.2em]
+\faLinkedin& \protect\href{https://www.linkedin.com/in/josef-gstoettner-437630172/}{Linkedin} \\[0.2em]
 
 % \faGlobe& nationality: English  \\
 % \faBirthdayCake&1690 \\
@@ -90,11 +90,11 @@
     \item ROS / ROS 2 (Navigation, SLAM, Moveit)
     \item Robot Simulation in Gazebo \& Isaacsim
     \item Behavior trees, robot task management
-    \item Object-oriented programming
-    \item PID control and robot kinematics
+    % \item Object-oriented programming
+    % \item PID control and robot kinematics
     \item Embedded software (STM32, Arduino) 
-    \item 3D modelling in Fusion360 \& Solidworks
-    \item 3D printing, CNC machining and laser cutting 
+    % \item 3D modelling in Fusion360 \& Solidworks
+    % \item 3D printing, CNC machining and laser cutting 
     \item Single board computers (Raspberry Pi, Jetson)
 \end{list}
 \bigskip
@@ -139,11 +139,12 @@
 
 \begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{0.0em} \vspace{-0.em}
     \item PCB design with KiCAD 
-    \item Game development in Godot
+    \item Android development
 \end{list}
 
 % \bigskip
 \vspace{10em}
+\vspace{5em}
 
 % \bg{cvgreen}{white}{Interests}\\
 
@@ -179,39 +180,36 @@ Have a strong understanding of mechanical engineering principles, object-oriente
 
 \begin{tabular}{p{0.55\textwidth} c}
     \cvevent{2025/9--present}{Assistant Research Engineer}{ROS robot programming}{HKCRC | Sciences Park}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
-        \item Develop autonomous, reliable tasks and recovery behaviors for a water tank cleaning robot using behavior trees.
+        \item Develop autonomous tasks and recovery behaviors for a water tank cleaning robot using behavior trees.
         \item Set up navigation, SLAM \& coverage planner to fully clean the whole surface.
-        \item Utilize Docker to package the whole robot software plus development tools for hassle free development and deployment.
+        \item Packaged robot software and tools with Docker for easy deployment.
         \item Create realistic Gazebo simulations for faster iterations and testing.
     \end{list}}{assets/HKCRC.png} \\
     \cvevent{2022/4--2024/8}{System Engineer}{ROS robot programming}{LSCM | Sciences Park}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
-        \item Made robots navigate autonomously, smoothly and avoid obstacles.
-        \item Set up SLAM (Cartographer, SlamToolbox, ...) for 2D/3D mapping of large areas.
+        \item Set up navigate \& SLAM (Cartographer, SlamToolbox, ...) for 2D/3D mapping of large areas.
         \item Simulated robots in Gazebo for testing and faster development.
-        \item Created object-oriented ROS nodes in C++ to interface with actuators and sensors.
+        % \item Created object-oriented ROS nodes in C++ to interface with actuators and sensors.
         \item Developed autonomous docking utilizing AprilTags for precise movement.
         \item Tuned PID controllers for smooth movement and speed control.
-        \item Worked on a wide range of sensors (3D LIDAR, depth cameras, IMU, GPS, Sonar).
+        % \item Worked on a wide range of sensors (3D LIDAR, depth cameras, IMU, GPS, Sonar).
     \end{list}}{assets/LSCM.jpg} \\
     \cvevent{2020/7--2022/3}{Research Assistant}{Embedded Software}{HKUST | Clear Water Bay}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
-        \item Developed a weight scale with an RFID scanner for automated storage records in chemical labs on an Arduino MCU.
+        % \item Developed a weight scale with an RFID scanner for automated storage records in chemical labs on an Arduino MCU.
         \item CAD design for 3D printing and laser cutting of prototypes.
         \item Firmware development on a low-power IoT accelerometer with BLE Mesh for predictive maintenance based on Nrf52.
-        \item Simulated a steel beam in Ansys for natural frequency analysis.
+        % \item Simulated a steel beam in Ansys for natural frequency analysis.
         \end{list}}{assets/ust.png}\\
-    % \cvevent{2019/8--2020/4}{Mechanical Engineer}{CAD design}{KALBAS | Cheung Sha Wan}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
-    %     \item Designed, 3D-printed, and created tool paths for CNC machining of fish lure prototypes.
-    %     \end{list}}{assets/empty.png}
+    \cvevent{2019/8--2020/4}{Mechanical Engineer}{CAD design}{KALBAS | Cheung Sha Wan}{\vspace{-1.em}}{assets/kalbas.png}
 \end{tabular}
 
 
 \section*{Education}
 
 \begin{tabular}{p{0.55\textwidth} c}
-    \cvevent{2018/9--2019/6}{Master of Science: Mechanical Engineering}{}{HKUST | Clear Water Bay}{\vspace{-1.em}\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
-        \item Relevant Courses: Robotics | Dynamics of Machines | Finite Element Analysis
-        \end{list}}{assets/ust.png} \\
-    \cvevent{2017/9--2018/6}{One Year Mandarin language study}{}{西南交通大学 | 四川峨嵋}{\vspace{-1.em}}{assets/xnjd.png}\\
+    \cvevent{2018/9--2019/6}{Master of Science: Mechanical Engineering}{}{HKUST | Clear Water Bay}{\vspace{-1.em}} %\begin{list}{$\cdot$}{\leftmargin=0em}\setlength{\itemsep}{-0.3em} \vspace{-0.5em}
+        % \item Relevant Courses: Robotics | Dynamics of Machines | Finite Element Analysis \end{list}}
+        {assets/ust.png} \\
+    \cvevent{2017/9--2018/6}{One Year Mandarin language study}{}{西南交通大学 | 四川峨嵋 | 汉语水平考试四级}{\vspace{-1.em}}{assets/xnjd.png}\\
     \cvevent{2014/9--2017/6}{Bachelor of Science: Mechanical Engineering}{}{University of Applied Sciences Upper Austria | Austria}{\vspace{-1.em}}{assets/fh-wels.png}\\
 \end{tabular}
 
@@ -304,7 +302,7 @@ Have a strong understanding of mechanical engineering principles, object-oriente
 
 
 
-\vfill{} % Whitespace before final footer
+% \vfill{} % Whitespace before final footer
 
 %----------------------------------------------------------------------------------------
 %	FINAL FOOTER

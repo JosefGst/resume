@@ -1,12 +1,12 @@
 # Fdb version 4
-["xdvipdfmx"] 1769408979.86703 "resume_Gstoettner_J_2026.xdv" "resume_Gstoettner_J_2026.pdf" "resume_Gstoettner_J_2026" 1769408980.27035 0
-  "resume_Gstoettner_J_2026.xdv" 1769408979.80857 57100 92d2acdc8460c418c599853d0206aab6 "xelatex"
+["xdvipdfmx"] 1769410778.52306 "resume_Gstoettner_J_2026.xdv" "resume_Gstoettner_J_2026.pdf" "resume_Gstoettner_J_2026" 1769410779.02448 0
+  "resume_Gstoettner_J_2026.xdv" 1769410778.45746 50892 88370b084a102b290030694a81ecd377 "xelatex"
   (generated)
   "resume_Gstoettner_J_2026.pdf"
   (rewritten before read)
-["xelatex"] 1769408978.96171 "/home/jack/Documents/private/resume/hipster-cv/resume_Gstoettner_J_2026.tex" "resume_Gstoettner_J_2026.xdv" "resume_Gstoettner_J_2026" 1769408980.26875 0
+["xelatex"] 1769410777.60208 "/home/jack/Documents/private/resume/hipster-cv/resume_Gstoettner_J_2026.tex" "resume_Gstoettner_J_2026.xdv" "resume_Gstoettner_J_2026" 1769410779.02284 0
   "/etc/texmf/web2c/texmf.cnf" 1765345358.48565 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/jack/Documents/private/resume/hipster-cv/resume_Gstoettner_J_2026.tex" 1769408978.79232 13960 82dceb7fec15246edceb75ff71c9aa2b ""
+  "/home/jack/Documents/private/resume/hipster-cv/resume_Gstoettner_J_2026.tex" 1769410777.42791 13711 89ea3dee31ed21e2e372f26cbc89e2e3 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -204,15 +204,16 @@
   "assets/LSCM.jpg" 1765344933.74336 6927 a8c1e841766936b83564f1fc5aa48b20 ""
   "assets/autorace.png" 1765344933.74336 12707 0e7433a5e716c525de84581d390b4bb4 ""
   "assets/fh-wels.png" 1765344933.74347 26912 cf9462d327f8758f7c418a4aefcedb31 ""
+  "assets/kalbas.png" 1769410169.46364 70427 c74dcf7eb8cb4db539bced6f4c576998 ""
   "assets/robo_master.jpg" 1765344933.75147 75326 9609d75472337a0c922a8c007a3b2b33 ""
   "assets/ust.png" 1765344933.75147 2737 41f8df0d323f9d96a3373c73b73ff65f ""
   "assets/xnjd.png" 1769408905.56974 17719 9cee2068abf33b6a050962fbebd14cf4 ""
   "hipstercv.cls" 1765344933.75147 9173 34342d651b48513e899aed8085d3f8ba ""
   "hipstercv.sty" 1765344933.75147 7691 ba89f622b0f18a51cbc45f398819c62f ""
   "profile_cropt.png" 1765344933.75247 166131 56b6a1affa6e7d099e9eddce99f7f86a ""
-  "resume_Gstoettner_J_2026.aux" 1769408979.80761 171 4ecc81f6ab26b6b7e256182c0420bb49 "xelatex"
-  "resume_Gstoettner_J_2026.out" 1769408979.76 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "resume_Gstoettner_J_2026.tex" 1769408978.79232 13960 82dceb7fec15246edceb75ff71c9aa2b ""
+  "resume_Gstoettner_J_2026.aux" 1769410778.45523 171 4ecc81f6ab26b6b7e256182c0420bb49 "xelatex"
+  "resume_Gstoettner_J_2026.out" 1769410778.4011 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "resume_Gstoettner_J_2026.tex" 1769410777.42791 13711 89ea3dee31ed21e2e372f26cbc89e2e3 ""
   (generated)
   "resume_Gstoettner_J_2026.aux"
   "resume_Gstoettner_J_2026.log"
