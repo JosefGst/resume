@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025/Debian) (preloaded format=xelatex 2026.6.15)  15 JUN 2026 10:19
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025/Debian) (preloaded format=xelatex 2026.6.15)  23 JUL 2026 13:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/josef/Projects/resume/hipster-cv/resume_Gstoettner_J_2026.tex
-(/home/josef/Projects/resume/hipster-cv/resume_Gstoettner_J_2026.tex
+**/home/josef/Documents/resume/hipster-cv/resume_Gstoettner_J_2026.tex
+(/home/josef/Documents/resume/hipster-cv/resume_Gstoettner_J_2026.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (./hipstercv.cls
@@ -1359,7 +1359,7 @@ LaTeX Font Info:    Font shape `TU/Raleway(0)/m/sc' will be
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 181.
 LaTeX Font Info:    Font shape `TU/Raleway(0)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 187.
+(Font)              scaled to size 9.0pt on input line 189.
 File: assets/PAI.png Graphic file (type bmp)
 <assets/PAI.png>
 File: assets/HKCRC.png Graphic file (type bmp)
@@ -1380,7 +1380,7 @@ File: assets/robo_master.jpg Graphic file (type bmp)
 <assets/robo_master.jpg>
 
 LaTeX Font Warning: Font shape `TU/FontAwesome(0)/b/n' undefined
-(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 239.
+(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 241.
 
 File: assets/autorace.png Graphic file (type bmp)
 <assets/autorace.png>
@@ -1400,11 +1400,11 @@ Package rerunfilecheck Info: File `resume_Gstoettner_J_2026.out' has not changed
  ) 
 Here is how much of TeX's memory you used:
  31492 strings out of 469747
- 696345 string characters out of 5467372
- 1197670 words of memory out of 5000000
+ 696348 string characters out of 5467372
+ 1198670 words of memory out of 5000000
  59506 multiletter control sequences out of 15000+600000
  634876 words of font info for 117 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
- 131i,9n,135p,505b,766s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,9n,135p,506b,766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on resume_Gstoettner_J_2026.xdv (1 page, 54292 bytes).
+Output written on resume_Gstoettner_J_2026.xdv (1 page, 56036 bytes).

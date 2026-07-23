@@ -1,9 +1,9 @@
-PWD /home/josef/Projects/resume/hipster-cv
+PWD /home/josef/Documents/resume/hipster-cv
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/xetex/xelatex.fmt
-INPUT /home/josef/Projects/resume/hipster-cv/resume_Gstoettner_J_2026.tex
+INPUT /home/josef/Documents/resume/hipster-cv/resume_Gstoettner_J_2026.tex
 OUTPUT resume_Gstoettner_J_2026.log
 INPUT ./hipstercv.cls
 INPUT hipstercv.cls
