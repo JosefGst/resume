@@ -1,12 +1,12 @@
 # Fdb version 4
-["xdvipdfmx"] 1791510569.51148 "resume_Gstoettner_J_2026.xdv" "resume_Gstoettner_J_2026.pdf" "resume_Gstoettner_J_2026" 1791510569.88177 0
-  "resume_Gstoettner_J_2026.xdv" 1791510569.46115 54984 a1f0a1840205f0c9bf7bb6e2afa83996 "xelatex"
+["xdvipdfmx"] 1792978323.32455 "resume_Gstoettner_J_2026.xdv" "resume_Gstoettner_J_2026.pdf" "resume_Gstoettner_J_2026" 1792978323.70601 0
+  "resume_Gstoettner_J_2026.xdv" 1792978323.27544 56036 d2e4273bd97499a1c21fecf926c0197a "xelatex"
   (generated)
   "resume_Gstoettner_J_2026.pdf"
   (rewritten before read)
-["xelatex"] 1791510568.85445 "/home/josef/Documents/resume/hipster-cv/resume_Gstoettner_J_2026.tex" "resume_Gstoettner_J_2026.xdv" "resume_Gstoettner_J_2026" 1791510569.88049 0
+["xelatex"] 1792978322.65067 "/home/josef/Documents/resume/hipster-cv/resume_Gstoettner_J_2026.tex" "resume_Gstoettner_J_2026.xdv" "resume_Gstoettner_J_2026" 1792978323.70475 0
   "/etc/texmf/web2c/texmf.cnf" 1778551747.79025 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/josef/Documents/resume/hipster-cv/resume_Gstoettner_J_2026.tex" 1791510568.70333 14469 b1732696b5af701eb27fbb129b357b3d ""
+  "/home/josef/Documents/resume/hipster-cv/resume_Gstoettner_J_2026.tex" 1792978234.08174 14355 7025d6a21b2f7fa66fe4c8d37b0d4469 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -203,12 +203,12 @@
   "assets/robo_master.jpg" 1783583168.62306 75326 9609d75472337a0c922a8c007a3b2b33 ""
   "assets/ust.png" 1783583168.62306 2737 41f8df0d323f9d96a3373c73b73ff65f ""
   "assets/xnjd.png" 1783583168.62306 17719 9cee2068abf33b6a050962fbebd14cf4 ""
-  "hipstercv.cls" 1783583168.62306 9173 34342d651b48513e899aed8085d3f8ba ""
+  "hipstercv.cls" 1792978322.49933 9173 9ce43ea3dbeaf6430d693d767af9fd76 ""
   "hipstercv.sty" 1791510566.19065 7743 f7e8996f402cda8d7a5c8d5989da99b7 ""
   "profile_cropt.png" 1783583168.62306 166131 56b6a1affa6e7d099e9eddce99f7f86a ""
-  "resume_Gstoettner_J_2026.aux" 1791510569.46028 171 4ecc81f6ab26b6b7e256182c0420bb49 "xelatex"
-  "resume_Gstoettner_J_2026.out" 1791510569.42292 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "resume_Gstoettner_J_2026.tex" 1791510568.70333 14469 b1732696b5af701eb27fbb129b357b3d ""
+  "resume_Gstoettner_J_2026.aux" 1792978323.27455 171 4ecc81f6ab26b6b7e256182c0420bb49 "xelatex"
+  "resume_Gstoettner_J_2026.out" 1792978323.23582 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "resume_Gstoettner_J_2026.tex" 1792978234.08174 14355 7025d6a21b2f7fa66fe4c8d37b0d4469 ""
   (generated)
   "resume_Gstoettner_J_2026.aux"
   "resume_Gstoettner_J_2026.log"
